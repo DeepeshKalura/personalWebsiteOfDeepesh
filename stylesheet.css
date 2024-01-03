@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background: var(--Black, #363636);
+}
+
+/* Navigation bar Completed */
+
+.navBar {
+    display: flex;
+    padding: 1.875rem 3.125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navName {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.3rem;
+}
+
+.navMenu a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* Now Body Part I will start */
