@@ -41,3 +41,38 @@ body {
 
 
 /* Now Body Part I will start */
+
+/* introduction */
+
+.introduction {
+    display: inline-flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+
+.introName {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.introAboutMe {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imageContainer {
+    width: 120.5rem;
+    height: 120.5rem;
+    flex-shrink: 0;
+}
