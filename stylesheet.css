@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +11,8 @@ body {
     background: var(--Black, #363636);
 }
 
-/* Navigation bar Completed */
+/* Home Screen */
+/* 1. Navigation bar Completed */
 
 .navBar {
     display: flex;
@@ -39,19 +46,27 @@ body {
     line-height: normal;
 }
 
-
-/* Now Body Part I will start */
+/* HomeContainer */
 
 /* introduction */
 
+.homeContainer {
+    display: flex;
+}
+
+.introduction,
+.imageContainer {
+    display: flex;
+}
+
 .introduction {
-    display: inline-flex;
     padding: 0.625rem;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 0.625rem;
 }
+
 
 .introName {
     color: #FFF;
@@ -72,7 +87,7 @@ body {
 }
 
 .imageContainer {
-    width: 120.5rem;
-    height: 120.5rem;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
 }
