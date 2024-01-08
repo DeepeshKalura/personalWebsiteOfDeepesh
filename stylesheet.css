@@ -19,6 +19,7 @@ body {
 
 .navBar {
     display: flex;
+    position: relative;
     padding: 1.875rem 3.125rem;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    z-index: 1;
+    z-index: 0;
 }
 
 .introduction,
@@ -73,8 +74,11 @@ body {
 }
 
 .imageContainer {
+    position: absolute;
+    right: 0;
     width: auto;
     height: auto;
+    z-index: -1;
 }
 
 .imageContainer img {
