@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS Postioned and Z-Index </title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .containerOne {
+        background-color: red;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 250px;
+        width: 250px;
+        z-index: 1;
+    }
+
+    .containerTwo {
+        background-color: transparent;
+        position: relative;
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <div class="containerOne">
+        <p>
+            Hello My Name is ContainerOne
+        </p>
+    </div>
+
+    <div class="containerTwo">
+        <p>
+            Hello My Name is ContainerTwo
+        </p>
+    </div>
+</body>
+
+</html>
