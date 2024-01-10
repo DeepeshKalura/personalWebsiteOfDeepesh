@@ -72,14 +72,18 @@ body {
 }
 
 /* HomeContainer */
+.homeScreen {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 /* introduction */
 
 .homeContainer {
+    display: block;
     width: 100%;
     height: 100%;
-    z-index: 0;
-
 }
 
 .introdunction {
@@ -127,6 +131,8 @@ body {
 
 .contactScreen {
     width: 100%;
+    height: 100%;
+    display: block;
 
 }
 
@@ -137,4 +143,47 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.contactInfo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contactActions {
+    display: inline;
+    width: 872px;
+    height: 120px;
+    top: 496px;
+    left: 55px;
+
+}
+
+.contactActionInfo {
+    display: inline;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contactActions a {
+    color: #EC704B;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.contactActions a:hover {
+    color: #F00;
+    text-decoration: underline;
 }
