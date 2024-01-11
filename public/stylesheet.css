@@ -8,15 +8,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: Poppins;
-    /* I will download this font from google font cool */
     background: var(--Black, #363636);
     height: 100%;
     width: 100%;
 }
-
-/* Home Screen */
-/* 1. Navigation bar Completed */
-
 
 .navBar {
     display: flex;
@@ -71,41 +66,35 @@ body {
     text-decoration: none;
 }
 
-/* HomeContainer */
+
+/* First Screen Home Screen */
+
 .homeScreen {
-    display: block;
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
-/* introduction */
 
-.homeContainer {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.introdunction {
+.introduction {
     position: relative;
-    width: 912px;
-    height: 394px;
+    width: 50%;
     padding: 10px;
-    gap: 10px;
     top: 240px;
     left: 34px
 }
 
 .imageContainer {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
-    width: auto;
-    height: auto;
     z-index: -1;
 }
 
-/* TODO: Please make a animation of the image asn well as the resize the image for use-case */
+.imageContainer img {
+    height: 100vh;
+    object-fit: cover;
+}
 
 .introName {
     color: #FFF;
