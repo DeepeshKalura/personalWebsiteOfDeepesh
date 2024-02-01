@@ -118,7 +118,7 @@ body {
 /* Portfolio  Work*/
 
 .portfolio {
-    background-color: #CCFF66;
+    background-color: #FFEEDB;
 }
 
 .mainView {
@@ -150,15 +150,37 @@ body {
 
 }
 
+/* About Me */
 
-/* About the Contact information */
+.aboutMe {
+    background-color: #363636;
+}
+
+.aboutMeHeader {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.aboutMeTextContent {
+    color: #FFF;
+}
+
+
+/*  Contact information */
 
 
 .contactScreen {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: #FA9500;
+    background-color: #DC0073;
 
 }
 
