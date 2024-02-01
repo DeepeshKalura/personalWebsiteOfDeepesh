@@ -119,6 +119,7 @@ body {
 
 .portfolio {
     background-color: #FFEEDB;
+    padding: 20px;
 }
 
 .mainView {
@@ -133,22 +134,79 @@ body {
 .portfolioCard {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    overflow: hidden;
+    margin-left: 34px;
+    margin-right: 34px;
+    gap: 20px;
 }
 
 .project {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 34rem;
+    height: 34rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: rgb(240, 240, 240);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+
+    img {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        transition: opacity .2s ease-out;
+    }
+
+    h2 {
+        position: absolute;
+        inset: auto auto 30px 30px;
+        margin: 0;
+        transition: inset .3s .3s ease-out;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    p,
+    a {
+        position: absolute;
+        opacity: 0;
+        max-width: 80%;
+        transition: opacity .3s ease-out;
+    }
+
+    p {
+        inset: auto auto 80px 30px;
+    }
+
+    a {
+        inset: auto auto 40px 30px;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &:hover h2 {
+        inset: auto auto 220px 30px;
+        transition: inset .3s ease-out;
+    }
+
+    &:hover p,
+    &:hover a {
+        opacity: 1;
+        transition: opacity .5s .1s ease-in;
+    }
+
+    &:hover img {
+        transition: opacity .3s ease-in;
+        opacity: 1;
+    }
+
 }
 
-.project p {
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: Poppins;
-    text-align: center;
-    color: #000000;
 
-}
 
 /* About Me */
 
