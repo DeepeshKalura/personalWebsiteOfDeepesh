@@ -171,21 +171,34 @@ body {
 /* Portfolio  Work*/
 
 .portfolio {
-    background-color: #363636;
-    padding: 10rem;
+    background-color: #4357AD;
+    padding-left: 10rem;
+    padding-right: 7rem;
 
     h1 {
-        color: #FFF;
+        color: #E4DFDA;
         font-family: Poppins;
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-align: center;
+        padding: 20px;
+    }
+
+    h2 {
+        color: #363636;
+        font-family: Poppins;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
         padding-top: 20px;
     }
 
 }
+
 
 .portfolioCard {
     display: grid;
@@ -195,10 +208,16 @@ body {
     align-items: center;
 }
 
+.marginBottom {
+    padding: 3rem;
+
+}
+
 .portfolioCardInfo {
     height: 60vh;
     padding: 50px;
-    background-color: rgb(248, 248, 248);
+    /* background-color: rgb(248, 248, 248); */
+    background-color: #E4DFDA;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius: 10px;
     min-height: 350px;
@@ -226,7 +245,7 @@ body {
     width: auto;
     height: auto;
     font-size: 12px;
-    margin: 0rem;
+    margin-right: 1.2rem;
     padding: 12px;
     border-radius: 5px;
     text-decoration: none;
@@ -276,6 +295,13 @@ body {
     img {
         width: 20px;
     }
+}
+
+.svgInline {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
 }
 
 /* About Me */
