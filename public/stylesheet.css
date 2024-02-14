@@ -16,13 +16,18 @@ body {
 .navBar {
     display: flex;
     position: relative;
-    padding: 1.875rem 3.125rem;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+    padding: 20px;
+    padding-top: 5px;
+    box-shadow: rgba(28, 28, 28, 0.388) 0px 5px 10px;
+    width: 100vw;
 }
 
+
 .navName {
+    display: inline;
     color: #FFF;
     font-family: Poppins;
     font-size: 3rem;
