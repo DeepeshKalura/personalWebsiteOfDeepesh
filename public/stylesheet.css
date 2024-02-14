@@ -226,9 +226,66 @@ body {
 
 }
 
-.aboutMeTextContent {
-    color: #FFF;
+.aboutMeContent {
+    background-color: #DC0073;
 }
+
+.aboutMeText {
+    color: #FFF;
+
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.aboutMeText img {
+    margin-right: 10px;
+    /* Adjust as needed for spacing */
+}
+
+.aboutMeText p {
+    margin-left: 10px;
+    /* Adjust as needed for spacing */
+}
+
+.quoteBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+
+}
+
+.quoteCard {
+    z-index: -1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 28%;
+    margin: 10px;
+    text-align: right;
+
+    p {
+        font-size: 16px;
+        margin: 0px;
+        line-height: 150%;
+        color: rgb(56, 56, 56);
+    }
+
+
+}
+
+.aboutMeFooter {
+    width: max-content;
+    z-index: 0;
+
+    p {
+        background-color: aqua;
+        height: 90%;
+
+    }
+}
+
 
 
 /*  Contact information */
