@@ -87,7 +87,46 @@ body {
     height: auto;
     padding: 10px;
     top: 240px;
-    left: 34px
+    left: 34px;
+
+}
+
+.download-button {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #DC0073;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s ease-in;
+    text-decoration: none;
+}
+
+.download-button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #FFA500;
+    text-decoration: none;
+}
+
+
+.socialMediaLinks {
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.socialMediaLinks img:hover {
+    cursor: pointer;
+    scale: 1.2;
 }
 
 .imageContainer {
@@ -105,20 +144,28 @@ body {
 .introName {
     color: #FFF;
     font-family: Poppins;
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: normal;
 }
 
 .introAboutMe {
     color: #FFF;
-    font-family: Poppins;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 40%;
 }
+
+.greatingHeader {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #FFF;
+    line-height: 30%;
+}
+
+
 
 /* Portfolio  Work*/
 
@@ -355,18 +402,4 @@ body {
 .contactActions a:hover {
     color: bisque;
     text-decoration: underline;
-}
-
-.socialMediaLinks {
-    margin-top: 3rem;
-    padding-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5.3rem;
-}
-
-.socialMediaLinks img:hover {
-    cursor: pointer;
-    scale: 1.2;
 }
