@@ -172,16 +172,16 @@ body {
 /* Portfolio  Work*/
 
 .portfolio {
-    background-color: #4357AD;
+    background-color: #424B54;
     padding-left: 1rem;
     /* padding-right: 7rem; */
 
     h1 {
-        color: #E4DFDA;
+        color: #F7F5FB;
         font-family: Poppins;
         font-size: 4rem;
         font-style: normal;
-        font-weight: 700;
+        font-weight: bolder;
         line-height: normal;
         text-align: center;
         padding: 20px;
@@ -219,7 +219,7 @@ body {
 .portfolioCardInfo {
     height: 60vh;
     padding: 50px;
-    background-color: #E4DFDA;
+    background-color: #E0E0E2;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius: 10px;
     min-height: 350px;
