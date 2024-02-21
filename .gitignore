@@ -68,3 +68,5 @@ node_modules/
 # firebase instance
 firebase.json
 .firebaserc
+
+node_modules
