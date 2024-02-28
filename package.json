@@ -4,7 +4,7 @@
   "description": "This is the repository for my personal website, where I showcase my portfolio, resume, and more.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/server.js"
+    "dev": "nodemon public/server.js"
   },
   "keywords": [],
   "author": "",
